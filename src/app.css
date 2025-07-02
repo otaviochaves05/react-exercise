@@ -5,9 +5,17 @@
   padding: 0;
 }
 
-section {
+.frame {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 700;
 }

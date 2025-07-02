@@ -11,10 +11,13 @@ function App() {
 
       <Header></Header>
       <main>
-        <section>
+        <section className='frame'>
           <Frame></Frame>
         </section>
-        {/* <CounterButton></CounterButton> */}
+        <section className='counter'>
+          <p>Quanto você gostou desse filme?</p>
+          <CounterButton></CounterButton>
+        </section>
       </main>
 
     </>

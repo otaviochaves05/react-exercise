@@ -11,7 +11,7 @@ function CounterButton(){
 
     return(
         <button onClick={increment}>
-            Clicks: {state} 
+            Likes: {state} 
         </button>
     )
 }

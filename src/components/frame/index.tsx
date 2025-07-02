@@ -2,7 +2,6 @@ import { useState } from "react"
 import './frame.css'
 
 
-
 function Frame() {
 
     const [showImg, setShowImg] = useState(true);
@@ -16,7 +15,7 @@ function Frame() {
             <button onClick={handleClick}>
                 {showImg ? 'Esconder filme' : 'Clique para descobrir o filme'}
             </button>
-            {showImg && <img src='' />}
+            {showImg && <img src='/img/interestrelar.png' />}
         </div>
     )
 }
